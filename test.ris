@@ -1,0 +1,25 @@
+![DOCTYPE]
+
+#[image rts="123", url="abc"];
+
+#[head] {
+    #[p] {
+        "abc"
+        #[test] {
+
+        }
+    }
+}
+
+#[body] {
+    #[h1] {
+        "title"
+    }
+    #[p] {
+        "content"
+        #[check checkDis=25] {
+            #[end];
+        }
+    }
+}
+
